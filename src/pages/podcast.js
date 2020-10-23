@@ -14,7 +14,6 @@ const Podcast = ({ data }) => {
             <Link to={post.frontmatter.slug}>
               <h2>{post.frontmatter.title}</h2>
             </Link>
-            <p>{post.excerpt}</p>
           </li>
         ))}
       </ul>
