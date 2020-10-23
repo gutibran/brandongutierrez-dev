@@ -5,7 +5,6 @@ const Index = () => {
   return (
     <SiteLayout>
       <h1>Index Page</h1>
-      <a href="https://brandongutierrez.dev/podcast-rss.xml">RSS feed</a>
     </SiteLayout>
   )
 }

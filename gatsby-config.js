@@ -6,7 +6,7 @@ module.exports = {
       options: {
         title: "Brandon Gutierrez Podcast",
         subtitle: "null subtitle",
-        description: "null description",
+        description: "A podcast.",
         summary: "null summary",
         podcastType: "episodic",
         siteUrl: "https://brandongutierrez.dev",
