@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "brandon-gutierrez-dev",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Personal website that contains my blog, podcast, and portfolio.",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -14,7 +14,12 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^2.24.79",
+    "@mdx-js/mdx": "^1.6.19",
+    "@mdx-js/react": "^1.6.19",
+    "gatsby": "^2.24.84",
+    "gatsby-plugin-mdx": "^1.2.50",
+    "gatsby-plugin-podcast-feed-mdx": "0.1.0-alpha.7",
+    "gatsby-source-filesystem": "^2.3.35",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
