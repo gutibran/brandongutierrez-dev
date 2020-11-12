@@ -1,11 +1,14 @@
 module.exports = {
   plugins: [
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: "gatsby-plugin-google-fonts",
       options: {
-        name: "assets",
-        path: `${__dirname}/src/assets`,
+        fonts: [
+          "goldman\:400,700",
+          "roboto\:400,700,900"
+        ],
+        display: "swap"
       },
-    },
+    }
   ],
 }
