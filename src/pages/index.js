@@ -45,7 +45,6 @@ const Index = () => {
     <OtherSiteLayout>
       <PhotoOfMe src={PhotoSource} alt="Brandon Gutierrez" />
       <Heading>Brandon Gutierrez</Heading>
-      <OtherHeading>Working on this site...</OtherHeading>
     </OtherSiteLayout>
   )
 }
