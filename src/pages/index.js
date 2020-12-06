@@ -14,14 +14,16 @@ const RotationAnimation = keyframes`
 `
 
 const PhotoOfMe = styled.img`
-  width: 250px;
-  height: 250px;
+  width: 175px;
+  height: 175px;
   animation-name: ${RotationAnimation};
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  border-radius: 50px;
-  margin: 5rem auto;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   display: block;
 `
 

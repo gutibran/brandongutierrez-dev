@@ -1,5 +1,6 @@
 import React from "react"
-import { Link, StaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
+// StaticQuery, graphql
 import styled from "styled-components"
 import ResumePDF from "../../static/brandon_gutierrez_resume.pdf"
 

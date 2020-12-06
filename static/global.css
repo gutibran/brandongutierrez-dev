@@ -1,11 +1,58 @@
-* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Roboto;
+@keyframes background-animation {
+    0% {
+        background-color: #FFFFFF;
+        -webkit-background-color: #FFFFFF;
+        -moz-background-color: #FFFFFF;
+
+    }
+
+    35% {
+        color: white;
+        -webkit-color: white;
+        -moz-color: white;
+    }
+    
+    50% {
+        background-color: #1b1b1b;
+        -webkit-background-color: #1b1b1b;
+        -moz-background-color: #1b1b1b;
+    }
+
+    100% {
+        background-color: #FFFFFF;
+        -webkit-color: white;
+        -moz-background-color: #FFFFFF;
+    }
 }
 
-@keyframes background-animation {
+@-webkit-keyframes background-animation {
+    0% {
+        background-color: #FFFFFF;
+        -webkit-background-color: #FFFFFF;
+        -moz-background-color: #FFFFFF;
+
+    }
+
+    35% {
+        color: white;
+        -webkit-color: white;
+        -moz-color: white;
+    }
+    
+    50% {
+        background-color: #1b1b1b;
+        -webkit-background-color: #1b1b1b;
+        -moz-background-color: #1b1b1b;
+    }
+
+    100% {
+        background-color: #FFFFFF;
+        -webkit-color: white;
+        -moz-background-color: #FFFFFF;
+    }
+}
+
+@-moz-keyframes background-animation {
     0% {
         background-color: #FFFFFF;
         -webkit-background-color: #FFFFFF;
