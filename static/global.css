@@ -1,0 +1,29 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes background-animation {
+    0% {
+        background-color: #FFFFFF;
+    }
+
+    35% {
+        color: white;
+    }
+
+    50% {
+        background-color: #1b1b1b;
+    }
+
+    100% {
+        background-color: #FFFFFF;
+    }
+}
+
+body {
+    animation-name: background-animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
