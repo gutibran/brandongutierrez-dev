@@ -1,15 +1,11 @@
 import React from "react"
 // import Header from "./Header"
 // import Footer from "./Footer"
-import { createGlobalStyle, keyframes } from "styled-components"
+import styled, { createGlobalStyle, keyframes } from "styled-components"
 
 const BackgroundAnimation = keyframes`
   0% {
-    background-color: #FFFFFF;
-  }
-
-  40% {
-    color: #FFFFFF;
+    background-color: #36454F;
   }
 
   50% {
@@ -17,7 +13,7 @@ const BackgroundAnimation = keyframes`
   }
 
   100% {
-    background-color: #FFFFFF;
+    background-color: #36454F;
   }
 `
 
@@ -26,22 +22,29 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #FFF;
   }
   
   body {
     animation-name: ${BackgroundAnimation};
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
+  }
+`
+
+const OtherSiteLayoutContainer = styled.div`
+  @media (min-width: 768px) {
+    margin: 0 25vw;
   }
 `
 
 const OtherSiteLayout = ({ children }) => {
     return (
-      <React.Fragment>
+      <OtherSiteLayoutContainer>
         <GlobalStyle />
         {children}
-      </React.Fragment>
+      </OtherSiteLayoutContainer>
     )
 }
 
